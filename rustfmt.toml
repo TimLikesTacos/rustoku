@@ -1,0 +1,4 @@
+
+#imports_granularity = "Module" # Nightly required
+
+newline_style = "Unix"
