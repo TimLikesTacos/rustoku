@@ -1,14 +1,17 @@
 [package]
 name = "rustoku"
 version = "0.1.0"
-description = "Sudoku solver using human and brute force technques, along with a framework for playable app building and free of dependencies"
 authors = ["Timothy Reed <thetimmyreed@gmail.com>"]
 edition = "2021"
-readme = "README.md"
-repository = "https://github.com/timlikestacos/rustoku.git"
+repository = "https://github.com/TimLikesTacos/rustoku.git"
 license = "MIT"
 keywords = ["sudoku, rustoku, brute_force, human, puzzle, game"]
 publish = false
+documentation = "https://docs.rs/rustoku"
+readme = "README.md"
+description = """
+Sudoku solver using human and brute force technques, along with a framework for playable app building and free of dependencies
+"""
 
 [dependencies]
 #None
@@ -16,3 +19,51 @@ publish = false
 [dev-dependencies]
 rayon = "1.6.1"
 criterion = "0.4.0"
+
+[[example]]
+name = "brute"
+
+[[example]]
+name = "badinput"
+
+[[example]]
+name = "hint"
+
+[[example]]
+name = "human"
+
+[[bench]]
+name = "sudoku_bench"
+harness = false
+
+[[bench]]
+name = "bruteb"
+harness = false
+
+[[bench]]
+name = "finnedfishes"
+harness = false
+
+[[bench]]
+name = "basicfishes"
+harness = false
+
+[[bench]]
+name = "hiddentups"
+harness = false
+
+[[bench]]
+name = "humanb"
+harness = false
+
+[[bench]]
+name = "nakedtups"
+harness = false
+
+[[bench]]
+name = "pointingclaiming"
+harness = false
+
+[[bench]]
+name = "singlecand"
+harness = false
