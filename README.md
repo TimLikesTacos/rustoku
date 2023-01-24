@@ -1,6 +1,6 @@
 # Rustoku
 
-![Finned Jellyfish](https://github.com/timlikestacos/rustoku-web/blob/main/screenshots/finned_jelly.png?raw=true)  
+![Finned Jellyfish](https://github.com/TimLikesTacos/rustokugui/blob/master/screenshots/finnedjelly.png?raw=true)  
 
 We all like Sudoku and writing brute force solvers, but this library solves sudoku puzzles using human style techniques,
 along with traditional brute force.  
@@ -165,13 +165,10 @@ Clone the repo and check out examples for more.
 
 
 ## Screenshots from a demo app
-A simple demo was made using this library and WebAssembly, found <a href="https://github.com/timlikestacos/rustoku-web">here, the rustoku-web repo.</a> 
+A simple demo was made using this library and Druid. Found [here](https://github.com/TimLikesTacos/rustokugu)
 
-![Claiming Candidates](https://github.com/TimLikesTacos/Rustoku-web/blob/main/screenshots/claiming.png?raw=true)  
-![Finned Jellyfish](https://github.com/timlikestacos/rustoku-web/blob/main/screenshots/finned_jelly.png?raw=true)  
-![Finned Swordfish](https://github.com/timlikestacos/rustoku-web/blob/main/screenshots/finnedswordfish.png?raw=true)
-![Finned Xwing](https://github.com/timlikestacos/rustoku-web/blob/main/screenshots/finnedxwing.png?raw=true)
-![hiddendouble](https://github.com/timlikestacos/rustoku-web/blob/main/screenshots/hiddendouble.png?raw=true)
-![Hidden Quad](https://github.com/timlikestacos/rustoku-web/blob/main/screenshots/hiddenquad.png?raw=true)
-![Pointing](https://github.com/timlikestacos/rustoku-web/blob/main/screenshots/pointing.png?raw=true)
-![Swordfish](https://github.com/timlikestacos/rustoku-web/blob/main/screenshots/swordfish.png?raw=true)
+![Claiming Candidates](https://github.com/TimLikesTacos/rustokugui/blob/master/screenshots/claiming.png?raw=true)  
+![Finned Jellyfish](https://github.com/TimLikesTacos/rustokugui/blob/master/screenshots/finnedjelly.png?raw=true)  
+![Hidden Triple](https://github.com/TimLikesTacos/rustokugui/blob/master/screenshots/hiddentriple.png?raw=true)
+![Naked Quad](https://github.com/TimLikesTacos/rustokugui/blob/master/screenshots/nakedQuad.png?raw=true)
+![Swordfish](https://github.com/TimLikesTacos/rustokugui/blob/master/screenshots/swordfish.png?raw=true)
